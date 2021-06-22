@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-22T16:45:12 IST" name="Default suite" finished-at="2021-06-22T16:46:14 IST" duration-ms="62172">
+  <suite started-at="2021-06-22T18:03:15 IST" name="Default suite" finished-at="2021-06-22T18:03:44 IST" duration-ms="29260">
     <groups>
     </groups>
-    <test started-at="2021-06-22T16:45:12 IST" name="Default test" finished-at="2021-06-22T16:46:14 IST" duration-ms="62172">
+    <test started-at="2021-06-22T18:03:15 IST" name="Default test" finished-at="2021-06-22T18:03:44 IST" duration-ms="29260">
       <class name="xpath.XpathClass">
-        <test-method signature="setup()[pri:0, instance:xpath.XpathClass@61386958]" started-at="2021-06-22T16:45:12 IST" name="setup" finished-at="2021-06-22T16:46:14 IST" duration-ms="62111" status="PASS">
+        <test-method signature="setup()[pri:0, instance:xpath.XpathClass@61386958]" started-at="2021-06-22T18:03:15 IST" name="setup" finished-at="2021-06-22T18:03:44 IST" duration-ms="29201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
