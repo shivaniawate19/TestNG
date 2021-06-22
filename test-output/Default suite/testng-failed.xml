@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng.IfElseBrowserClass">
+      <class name="xpath.XpathClass">
         <methods>
-          <include name="f"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- testng.IfElseBrowserClass -->
+      </class> <!-- xpath.XpathClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
-    <parameter name="browser" value="firefox"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="para.ChromefireClass">
+      <class name="xpath.XpathClass">
         <methods>
-          <include name="firefoxmethod"/>
-          <include name="chromemethod"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- para.ChromefireClass -->
-      <class name="testng.IfElseBrowserClass">
-        <methods>
-          <include name="testcase" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- testng.IfElseBrowserClass -->
+      </class> <!-- xpath.XpathClass -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
