@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="xpath.XpathClass">
+      <class name="action.DragnDropClass">
         <methods>
-          <include name="setup"/>
+          <include name="dragmethod"/>
         </methods>
-      </class> <!-- xpath.XpathClass -->
+      </class> <!-- action.DragnDropClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
